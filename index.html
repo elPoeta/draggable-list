@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./dist/index.js"></script>
+    <script src="./dist/index.js" type="module"></script>
     <title>Drag and Drop List</title>
 </head>
 
 <body>
     <h1>Drag and Drop List</h1>
+    <div class="adder">
+        <input type="text" class="input" placeholder="Add items in your list" />
+        <span class="add">+</span>
+    </div>
+    <ul>
+        <li class="draggable" draggable="true">JavaScript</li>
+        <li class="draggable" draggable="true">Node Js</li>
+        <li class="draggable" draggable="true">Typescript</li>
+        <li class="draggable" draggable="true">Sql</li>
+        <li class="draggable" draggable="true">React js</li>
+    </ul>
 </body>
 
 </html>
