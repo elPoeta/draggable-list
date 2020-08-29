@@ -1,0 +1,27 @@
+{
+  "name": "draggable-list",
+  "version": "1.0.0",
+  "description": "html5 drag and drop",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elPoeta/draggable-list.git"
+  },
+  "keywords": [
+    "drag",
+    "and",
+    "drop"
+  ],
+  "author": "Leonarod Tosetto (leonardo.a.tosetto@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elPoeta/draggable-list/issues"
+  },
+  "homepage": "https://github.com/elPoeta/draggable-list#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
